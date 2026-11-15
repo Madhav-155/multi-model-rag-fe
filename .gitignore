@@ -1,0 +1,19 @@
+# Local configuration
+.env
+.env.*
+!.env.example
+.streamlit/secrets.toml
+
+# Python and Streamlit state
+.venv/
+venv/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.ruff_cache/
+.coverage
+htmlcov/
+
+# Local state
+.DS_Store
+*.log
